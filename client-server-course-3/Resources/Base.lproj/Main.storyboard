@@ -194,10 +194,10 @@
             </objects>
             <point key="canvasLocation" x="2681.1594202898555" y="-514.28571428571422"/>
         </scene>
-        <!--Network View Controller-->
+        <!--Realm View Controller-->
         <scene sceneID="iZ0-ln-Ajf">
             <objects>
-                <viewController id="Xmg-oe-y9i" customClass="NetworkViewController" customModule="client_server_course_3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Xmg-oe-y9i" customClass="RealmViewController" customModule="client_server_course_3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gef-A4-gBH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

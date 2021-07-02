@@ -7,5 +7,7 @@ target 'client-server-course-3' do
 
   # Pods for client-server-course-3
   pod 'Alamofire'
+  pod 'SwiftKeychainWrapper'
+  pod 'RealmSwift'
 
 end
