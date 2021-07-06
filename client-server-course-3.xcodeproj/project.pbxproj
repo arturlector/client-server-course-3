@@ -11,6 +11,8 @@
 		125B72CB268F82F900E273C8 /* RealmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B72CA268F82F900E273C8 /* RealmViewController.swift */; };
 		125B72CD268F8D7700E273C8 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B72CC268F8D7600E273C8 /* DatabaseService.swift */; };
 		125B72CF268F8D9F00E273C8 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B72CE268F8D9F00E273C8 /* UserModel.swift */; };
+		1273D12A2694C863003F2E68 /* RealmNotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273D1292694C863003F2E68 /* RealmNotificationsViewController.swift */; };
+		1273D12C2694D024003F2E68 /* ObjectNotifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273D12B2694D024003F2E68 /* ObjectNotifyViewController.swift */; };
 		12AEB10526791F1F00617189 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AEB10426791F1F00617189 /* AppDelegate.swift */; };
 		12AEB10726791F1F00617189 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AEB10626791F1F00617189 /* SceneDelegate.swift */; };
 		12AEB10926791F1F00617189 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AEB10826791F1F00617189 /* AccountViewController.swift */; };
@@ -32,6 +34,8 @@
 		125B72CA268F82F900E273C8 /* RealmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmViewController.swift; sourceTree = "<group>"; };
 		125B72CC268F8D7600E273C8 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
 		125B72CE268F8D9F00E273C8 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		1273D1292694C863003F2E68 /* RealmNotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmNotificationsViewController.swift; sourceTree = "<group>"; };
+		1273D12B2694D024003F2E68 /* ObjectNotifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectNotifyViewController.swift; sourceTree = "<group>"; };
 		12AEB10126791F1F00617189 /* client-server-course-3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "client-server-course-3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12AEB10426791F1F00617189 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12AEB10626791F1F00617189 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +86,15 @@
 			path = "Lesson-6";
 			sourceTree = "<group>";
 		};
+		1273D1282694C835003F2E68 /* Lesson-7 */ = {
+			isa = PBXGroup;
+			children = (
+				1273D1292694C863003F2E68 /* RealmNotificationsViewController.swift */,
+				1273D12B2694D024003F2E68 /* ObjectNotifyViewController.swift */,
+			);
+			path = "Lesson-7";
+			sourceTree = "<group>";
+		};
 		12AEB0F826791F1F00617189 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				12AEB1182679210700617189 /* App */,
+				1273D1282694C835003F2E68 /* Lesson-7 */,
 				125B72C9268F82D600E273C8 /* Lesson-6 */,
 				125B72BE2686490200E273C8 /* Lesson-4 */,
 				12AEB128267BC8B200617189 /* Lesson-2 */,
@@ -314,9 +328,11 @@
 				12AEB125267BB9D500617189 /* ChooseFruitViewController.swift in Sources */,
 				12AEB127267BB9E800617189 /* FruitsViewController.swift in Sources */,
 				12AEB122267927DB00617189 /* NotificationCenterViewController.swift in Sources */,
+				1273D12C2694D024003F2E68 /* ObjectNotifyViewController.swift in Sources */,
 				125B72C02686491D00E273C8 /* StorageViewController.swift in Sources */,
 				12AEB11E267921C600617189 /* Account.swift in Sources */,
 				12AEB10926791F1F00617189 /* AccountViewController.swift in Sources */,
+				1273D12A2694C863003F2E68 /* RealmNotificationsViewController.swift in Sources */,
 				12AEB11C2679219800617189 /* DetailAccountViewController.swift in Sources */,
 				125B72CF268F8D9F00E273C8 /* UserModel.swift in Sources */,
 				12AEB12C267BD83D00617189 /* APIService.swift in Sources */,
