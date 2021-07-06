@@ -3,27 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		125B72C02686491D00E273C8 /* StorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B72BF2686491D00E273C8 /* StorageViewController.swift */; };
+		125B72CB268F82F900E273C8 /* RealmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B72CA268F82F900E273C8 /* RealmViewController.swift */; };
+		125B72CD268F8D7700E273C8 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B72CC268F8D7600E273C8 /* DatabaseService.swift */; };
+		125B72CF268F8D9F00E273C8 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B72CE268F8D9F00E273C8 /* UserModel.swift */; };
+		1273D12A2694C863003F2E68 /* RealmNotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273D1292694C863003F2E68 /* RealmNotificationsViewController.swift */; };
+		1273D12C2694D024003F2E68 /* ObjectNotifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273D12B2694D024003F2E68 /* ObjectNotifyViewController.swift */; };
 		12AEB10526791F1F00617189 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AEB10426791F1F00617189 /* AppDelegate.swift */; };
 		12AEB10726791F1F00617189 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AEB10626791F1F00617189 /* SceneDelegate.swift */; };
-		12AEB10926791F1F00617189 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AEB10826791F1F00617189 /* ViewController.swift */; };
+		12AEB10926791F1F00617189 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AEB10826791F1F00617189 /* AccountViewController.swift */; };
 		12AEB10C26791F1F00617189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12AEB10A26791F1F00617189 /* Main.storyboard */; };
 		12AEB10E26791F2000617189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12AEB10D26791F2000617189 /* Assets.xcassets */; };
 		12AEB11126791F2000617189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12AEB10F26791F2000617189 /* LaunchScreen.storyboard */; };
+		12AEB11C2679219800617189 /* DetailAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AEB11B2679219800617189 /* DetailAccountViewController.swift */; };
+		12AEB11E267921C600617189 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AEB11D267921C600617189 /* Account.swift */; };
+		12AEB122267927DB00617189 /* NotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AEB121267927DB00617189 /* NotificationCenterViewController.swift */; };
+		12AEB125267BB9D500617189 /* ChooseFruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AEB124267BB9D500617189 /* ChooseFruitViewController.swift */; };
+		12AEB127267BB9E800617189 /* FruitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AEB126267BB9E800617189 /* FruitsViewController.swift */; };
+		12AEB12A267BC9C500617189 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AEB129267BC9C500617189 /* NetworkViewController.swift */; };
+		12AEB12C267BD83D00617189 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AEB12B267BD83D00617189 /* APIService.swift */; };
+		5645E9FE96FA57A669DD5472 /* Pods_client_server_course_3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4EFB622D0228614910865BD /* Pods_client_server_course_3.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		125B72BF2686491D00E273C8 /* StorageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageViewController.swift; sourceTree = "<group>"; };
+		125B72CA268F82F900E273C8 /* RealmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmViewController.swift; sourceTree = "<group>"; };
+		125B72CC268F8D7600E273C8 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		125B72CE268F8D9F00E273C8 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		1273D1292694C863003F2E68 /* RealmNotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmNotificationsViewController.swift; sourceTree = "<group>"; };
+		1273D12B2694D024003F2E68 /* ObjectNotifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectNotifyViewController.swift; sourceTree = "<group>"; };
 		12AEB10126791F1F00617189 /* client-server-course-3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "client-server-course-3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12AEB10426791F1F00617189 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12AEB10626791F1F00617189 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		12AEB10826791F1F00617189 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12AEB10826791F1F00617189 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		12AEB10B26791F1F00617189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12AEB10D26791F2000617189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12AEB11026791F2000617189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12AEB11226791F2000617189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12AEB11B2679219800617189 /* DetailAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAccountViewController.swift; sourceTree = "<group>"; };
+		12AEB11D267921C600617189 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		12AEB121267927DB00617189 /* NotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewController.swift; sourceTree = "<group>"; };
+		12AEB124267BB9D500617189 /* ChooseFruitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFruitViewController.swift; sourceTree = "<group>"; };
+		12AEB126267BB9E800617189 /* FruitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsViewController.swift; sourceTree = "<group>"; };
+		12AEB129267BC9C500617189 /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
+		12AEB12B267BD83D00617189 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		1D0FBF2B6C9A554FC4207E17 /* Pods-client-server-course-3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-client-server-course-3.release.xcconfig"; path = "Target Support Files/Pods-client-server-course-3/Pods-client-server-course-3.release.xcconfig"; sourceTree = "<group>"; };
+		A76C8740F4A381F913604130 /* Pods-client-server-course-3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-client-server-course-3.debug.xcconfig"; path = "Target Support Files/Pods-client-server-course-3/Pods-client-server-course-3.debug.xcconfig"; sourceTree = "<group>"; };
+		B4EFB622D0228614910865BD /* Pods_client_server_course_3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_client_server_course_3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5645E9FE96FA57A669DD5472 /* Pods_client_server_course_3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		125B72BE2686490200E273C8 /* Lesson-4 */ = {
+			isa = PBXGroup;
+			children = (
+				125B72BF2686491D00E273C8 /* StorageViewController.swift */,
+			);
+			path = "Lesson-4";
+			sourceTree = "<group>";
+		};
+		125B72C9268F82D600E273C8 /* Lesson-6 */ = {
+			isa = PBXGroup;
+			children = (
+				125B72CA268F82F900E273C8 /* RealmViewController.swift */,
+				125B72CC268F8D7600E273C8 /* DatabaseService.swift */,
+				125B72CE268F8D9F00E273C8 /* UserModel.swift */,
+			);
+			path = "Lesson-6";
+			sourceTree = "<group>";
+		};
+		1273D1282694C835003F2E68 /* Lesson-7 */ = {
+			isa = PBXGroup;
+			children = (
+				1273D1292694C863003F2E68 /* RealmNotificationsViewController.swift */,
+				1273D12B2694D024003F2E68 /* ObjectNotifyViewController.swift */,
+			);
+			path = "Lesson-7";
+			sourceTree = "<group>";
+		};
 		12AEB0F826791F1F00617189 = {
 			isa = PBXGroup;
 			children = (
 				12AEB10326791F1F00617189 /* client-server-course-3 */,
 				12AEB10226791F1F00617189 /* Products */,
+				4922F308F612DB1D9A86F309 /* Pods */,
+				4D1F27AE67C58FB1606E98EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +116,98 @@
 		12AEB10326791F1F00617189 /* client-server-course-3 */ = {
 			isa = PBXGroup;
 			children = (
+				12AEB1182679210700617189 /* App */,
+				1273D1282694C835003F2E68 /* Lesson-7 */,
+				125B72C9268F82D600E273C8 /* Lesson-6 */,
+				125B72BE2686490200E273C8 /* Lesson-4 */,
+				12AEB128267BC8B200617189 /* Lesson-2 */,
+				12AEB11A2679211900617189 /* Lesson-1 */,
+				12AEB1192679210E00617189 /* Resources */,
+			);
+			path = "client-server-course-3";
+			sourceTree = "<group>";
+		};
+		12AEB1182679210700617189 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				12AEB10426791F1F00617189 /* AppDelegate.swift */,
 				12AEB10626791F1F00617189 /* SceneDelegate.swift */,
-				12AEB10826791F1F00617189 /* ViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		12AEB1192679210E00617189 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				12AEB10A26791F1F00617189 /* Main.storyboard */,
 				12AEB10D26791F2000617189 /* Assets.xcassets */,
 				12AEB10F26791F2000617189 /* LaunchScreen.storyboard */,
 				12AEB11226791F2000617189 /* Info.plist */,
 			);
-			path = "client-server-course-3";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		12AEB11A2679211900617189 /* Lesson-1 */ = {
+			isa = PBXGroup;
+			children = (
+				12AEB123267BB98400617189 /* Delegate */,
+				12AEB120267925AD00617189 /* NotificationCenter */,
+				12AEB11F2679258400617189 /* Singleton */,
+			);
+			path = "Lesson-1";
+			sourceTree = "<group>";
+		};
+		12AEB11F2679258400617189 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				12AEB10826791F1F00617189 /* AccountViewController.swift */,
+				12AEB11B2679219800617189 /* DetailAccountViewController.swift */,
+				12AEB11D267921C600617189 /* Account.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		12AEB120267925AD00617189 /* NotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				12AEB121267927DB00617189 /* NotificationCenterViewController.swift */,
+			);
+			path = NotificationCenter;
+			sourceTree = "<group>";
+		};
+		12AEB123267BB98400617189 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				12AEB124267BB9D500617189 /* ChooseFruitViewController.swift */,
+				12AEB126267BB9E800617189 /* FruitsViewController.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		12AEB128267BC8B200617189 /* Lesson-2 */ = {
+			isa = PBXGroup;
+			children = (
+				12AEB129267BC9C500617189 /* NetworkViewController.swift */,
+				12AEB12B267BD83D00617189 /* APIService.swift */,
+			);
+			path = "Lesson-2";
+			sourceTree = "<group>";
+		};
+		4922F308F612DB1D9A86F309 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A76C8740F4A381F913604130 /* Pods-client-server-course-3.debug.xcconfig */,
+				1D0FBF2B6C9A554FC4207E17 /* Pods-client-server-course-3.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4D1F27AE67C58FB1606E98EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4EFB622D0228614910865BD /* Pods_client_server_course_3.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12AEB11526791F2000617189 /* Build configuration list for PBXNativeTarget "client-server-course-3" */;
 			buildPhases = (
+				73B182AD99AF3BF8A17852E7 /* [CP] Check Pods Manifest.lock */,
 				12AEB0FD26791F1F00617189 /* Sources */,
 				12AEB0FE26791F1F00617189 /* Frameworks */,
 				12AEB0FF26791F1F00617189 /* Resources */,
+				ED4D624C2344CAB6B1F23109 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +277,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		73B182AD99AF3BF8A17852E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-client-server-course-3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED4D624C2344CAB6B1F23109 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-client-server-course-3/Pods-client-server-course-3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-client-server-course-3/Pods-client-server-course-3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-client-server-course-3/Pods-client-server-course-3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		12AEB0FD26791F1F00617189 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12AEB10926791F1F00617189 /* ViewController.swift in Sources */,
+				125B72CB268F82F900E273C8 /* RealmViewController.swift in Sources */,
+				12AEB125267BB9D500617189 /* ChooseFruitViewController.swift in Sources */,
+				12AEB127267BB9E800617189 /* FruitsViewController.swift in Sources */,
+				12AEB122267927DB00617189 /* NotificationCenterViewController.swift in Sources */,
+				1273D12C2694D024003F2E68 /* ObjectNotifyViewController.swift in Sources */,
+				125B72C02686491D00E273C8 /* StorageViewController.swift in Sources */,
+				12AEB11E267921C600617189 /* Account.swift in Sources */,
+				12AEB10926791F1F00617189 /* AccountViewController.swift in Sources */,
+				1273D12A2694C863003F2E68 /* RealmNotificationsViewController.swift in Sources */,
+				12AEB11C2679219800617189 /* DetailAccountViewController.swift in Sources */,
+				125B72CF268F8D9F00E273C8 /* UserModel.swift in Sources */,
+				12AEB12C267BD83D00617189 /* APIService.swift in Sources */,
+				125B72CD268F8D7700E273C8 /* DatabaseService.swift in Sources */,
 				12AEB10526791F1F00617189 /* AppDelegate.swift in Sources */,
+				12AEB12A267BC9C500617189 /* NetworkViewController.swift in Sources */,
 				12AEB10726791F1F00617189 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,12 +483,13 @@
 		};
 		12AEB11626791F2000617189 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A76C8740F4A381F913604130 /* Pods-client-server-course-3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77XX2PXRV7;
-				INFOPLIST_FILE = "client-server-course-3/Info.plist";
+				INFOPLIST_FILE = "client-server-course-3/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +503,13 @@
 		};
 		12AEB11726791F2000617189 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D0FBF2B6C9A554FC4207E17 /* Pods-client-server-course-3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77XX2PXRV7;
-				INFOPLIST_FILE = "client-server-course-3/Info.plist";
+				INFOPLIST_FILE = "client-server-course-3/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
